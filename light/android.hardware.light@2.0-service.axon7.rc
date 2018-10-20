@@ -16,6 +16,8 @@ on init
     chown system system /sys/class/leds/red/start_idx
     chown system system /sys/class/leds/green/start_idx
 
+    chown system system /sys/class/graphics/fb0/msm_fb_persist_mode
+
     chmod 660 /sys/class/leds/red/ramp_step_ms
     chmod 660 /sys/class/leds/green/ramp_step_ms
     chmod 660 /sys/class/leds/red/duty_pcts
